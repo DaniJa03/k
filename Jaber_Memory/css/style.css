@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(116, 116, 116);
+    
+}
+
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 550px; 
+}
+.card{
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-family: fantasy;
+    width: auto;
+    height: auto;
+    margin: 1%;
+    flex: auto;
+    flex-basis: 20%;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(177, 177, 177);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.flipped{
+    background-color: rgb(209, 209, 209);
+}
+
+.found{
+    background-color:rgb(255, 255, 255);
+    border-color: white;
+}
+
+.classueberschrift{
+    display: flex;
+    justify-content: center;
+}
